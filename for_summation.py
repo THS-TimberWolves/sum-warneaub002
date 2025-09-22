@@ -1,6 +1,7 @@
-#for Summation code here
-number=int(input("enter a number:"))
+number=int(input())
 x=0
-while x<=number:
+total=0
+while x<number:
     x+=1
-print(x)
+    total=total+x
+print(total)
